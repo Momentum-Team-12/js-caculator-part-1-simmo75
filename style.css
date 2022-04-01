@@ -3,9 +3,7 @@
     margin: 0;
 }
 
-body {
-
-}
+body {}
 
 .row {
     display: grid;
@@ -24,14 +22,14 @@ body {
 }
 
 .display {
-    background-color: #df8632;  
+    background-color: #df8632;
     /* background-color: #46c8a1; */
     border-color: #46c8a1;
     border-style: solid;
     border: 3px;
 }
+
 .button {
-    /* background-color: #4CAF50;  */
     background-color: #00a2aa;
     border: 1px;
     color: rgb(0, 0, 0);
@@ -41,5 +39,12 @@ body {
     font-size: 16px;
     border-color: #46c8a1;
     border-style: solid;
+    cursor: pointer;
+    
 }
 
+#main {
+    flex-wrap: wrap;
+    width: 400px;
+
+}
